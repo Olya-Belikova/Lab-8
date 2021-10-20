@@ -1,0 +1,68 @@
+using System;
+
+namespace Lab_8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* Задание 1
+            Console.Write("Введите размер файла в байтах: ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            double b;
+            b = a / 1024;
+            Console.Write("Размер файла в Кбайт: " + b);
+            */
+
+            /* Задание 2
+            int number;
+            Console.Write("А = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("В = ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            if(a > b)
+            {
+                number = a / b;
+                Console.Write("На отрезке А может быть расположенно " + number + " отрезков В");
+            }
+            else
+            {
+                Console.Write("!! A > B !!!");
+            }
+            */
+
+            /* Задание 3
+            int result;
+            Console.Write("А = ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("В = ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            if (a > b)
+            {
+                result = a % b;
+                Console.Write("В отрезке А не занята чать равная " + result);
+            }
+            else
+            {
+                Console.Write("!! A > B !!!");
+            }
+            */
+
+            /* Задание 4
+            int yx;
+            Console.Write("xy = ");
+            int xy = Convert.ToInt32(Console.ReadLine());
+            yx = xy / 10 + xy % 10 * 10;
+            Console.Write(yx);
+            */
+
+            /* Задание 5
+            int yzx;
+            Console.Write("xyz = ");
+            int xyz = Convert.ToInt32(Console.ReadLine());
+            yzx = (xyz % 100 / 10 * 100) + (xyz % 10) * 10 + xyz / 100;
+            Console.Write(yzx); 
+            */
+        }
+    }
+}
