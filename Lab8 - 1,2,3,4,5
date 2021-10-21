@@ -17,7 +17,7 @@ namespace Lab_8
             }
             else
             {
-                b = a / 1024 + 1;
+                b++;
                 Console.Write("Размер файла в Кбайт: " + b);
             }
             
